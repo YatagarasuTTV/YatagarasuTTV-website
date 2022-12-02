@@ -2,11 +2,11 @@ html, body {
   	height: 100%;
   	width: 100%;
   	color: #ffffff;
-  	font-family: 'Times New Roman', Times, serif;
-  	margin-top: 10px;
-  	margin-bottom: 10px;
-  	margin-right: 10px;
-  	margin-left: 10px;
+  	font-family: 'Courier New', Courier, monospace;
+  	margin-top: 0%;
+  	margin-bottom: 0%;
+  	margin-right: 0%;
+  	margin-left: 0%;
   	background-color: #323232;
 	text-align: center;
 }
@@ -27,4 +27,9 @@ a:hover {
 /* selected link */
 a:active {
   	color: #9efffd;
+}
+
+footer {
+position: fixed;
+bottom: 0;
 }

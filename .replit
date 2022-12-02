@@ -59,6 +59,10 @@ pattern = "**/{*.js,*.jsx,*.ts,*.tsx,*.mjs,*.cjs}"
 [gitHubImport]
 requiredFiles = [".replit", "replit.nix", ".config"]
 
+[auth]
+pageEnabled = false
+buttonEnabled = false
+
 [languages.css]
 pattern = "**/{*.less,*.scss,*.css}"
   [languages.css.languageServer]
